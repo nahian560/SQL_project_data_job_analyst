@@ -18,7 +18,7 @@ FROM
 WHERE
     job_title_short = 'Data Analyst' AND
     salary_year_avg IS NOT NULL AND
-    job_country = 'United Kingdom'
+    --job_country = 'United Kingdom'
 GROUP BY
     skills
 ORDER BY
